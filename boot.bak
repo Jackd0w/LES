@@ -25,3 +25,17 @@
   #; (newline)
   #; (display x)
    (show #t (pretty x)))
+
+;;append-rule
+
+(define (append x y)
+  ())
+
+(define (append-to-form x y z)
+  ())
+
+;;Query-reader
+
+(define (query-driver-loop)
+  (promt-for-input input-promt)
+  (let (q (query-syntax-process (read)))
